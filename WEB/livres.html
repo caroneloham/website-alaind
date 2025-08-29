@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mes Livres - Alain Dawid</title>
+    
+    <!-- Importation des polices & icônes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Lora:ital,wght@0,400;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Fichiers CSS et JS locaux -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="preloader"><div class="spinner"></div></div>
+
+    <nav class="side-nav">
+        <img src="ALAIN_PROFIL_MAI2023.jpeg" alt="Portrait de Alain Dawid" class="profile-icon">
+        <ul class="nav-list">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="entreprise.html">Ma petite entreprise</a></li>
+            <li><a href="livres.html">Livres</a></li>
+            <li><a href="blog.html">Coups de cœur & Gueule</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="livres-section" id="livres">
+            <header class="section-header">
+                <h2>Mes Livres</h2>
+                <p>L'écriture est l'autre versant de mon travail. C'est ici que la main qui bâtit laisse place à la plume qui explore les idées, les émotions et les réflexions.</p>
+            </header>
+
+            <!-- SECTION DES LIVRES PUBLIÉS -->
+            <h3 class="books-category-title">Publiés</h3>
+            <div class="books-grid">
+                <!-- Livre 1 -->
+                <div class="book-card">
+                    <!-- CORRECTION: Chemin du dossier -->
+                    <div class="book-cover"><img src="LIVRES/debout.jpeg" alt="Couverture du livre DEBOUT!"></div>
+                    <div class="book-info">
+                        <h4>DEBOUT!</h4>
+                        <p>Une réflexion sur la résilience et la force intérieure face aux épreuves de la vie.</p>
+                        <a href="#" class="book-buy-button">Acheter ce livre</a>
+                    </div>
+                </div>
+                <!-- Livre 2 -->
+                <div class="book-card">
+                    <!-- CORRECTION: Chemin du dossier -->
+                    <div class="book-cover"><img src="LIVRES/LERE_CON.png" alt="Couverture du livre L'ÈRE CON"></div>
+                    <div class="book-info">
+                        <h4>L'ÈRE CON</h4>
+                        <p>Une analyse percutante et sans concession de notre société contemporaine.</p>
+                        <a href="#" class="book-buy-button">Acheter ce livre</a>
+                    </div>
+                </div>
+                <!-- Livre 3 -->
+                <div class="book-card">
+                    <!-- CORRECTION: Chemin du dossier -->
+                    <div class="book-cover"><img src="LIVRES/Prendre_de_la_Hauteur.jpg" alt="Couverture du livre Prendre de la Hauteur"></div>
+                    <div class="book-info">
+                        <h4>Prendre de la Hauteur</h4>
+                        <p>Comment changer de perspective pour mieux appréhender le monde qui nous entoure.</p>
+                        <a href="#" class="book-buy-button">Acheter ce livre</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- SECTION DES LIVRES AUTO-ÉDITÉS -->
+            <h3 class="books-category-title">Auto-édités</h3>
+            <div class="books-grid">
+                <!-- Livre 4 -->
+                <div class="book-card">
+                    <div class="book-cover"><img src="LIVRES/pieds_sur_terre.jpg" alt="Couverture du livre Les Pieds sur Terre"></div>
+                    <div class="book-info">
+                        <h4>Les Pieds sur Terre</h4>
+                        <p>Un retour aux sources et à l'essentiel, à travers le contact direct avec la terre.</p>
+                        <a href="contact.html" class="book-buy-button">Me contacter</a>
+                    </div>
+                </div>
+                <!-- Livre 5 -->
+                <div class="book-card">
+                    <div class="book-cover"><img src="LIVRES/et_maintenant.jpg" alt="Couverture du livre Et Maintenant ?"></div>
+                    <div class="book-info">
+                        <h4>Et Maintenant ?</h4>
+                        <p>Face à l'incertitude, quelles directions prendre ? Pistes de réflexion pour l'avenir.</p>
+                        <a href="contact.html" class="book-buy-button">Me contacter</a>
+                    </div>
+                </div>
+                <!-- Livre 6 -->
+                <div class="book-card">
+                    <div class="book-cover"><img src="LIVRES/les_mains_de_la_terre.jpg" alt="Couverture du livre Les Mains de la Terre"></div>
+                    <div class="book-info">
+                        <h4>Les Mains de la Terre</h4>
+                        <p>Chroniques d'un artisan, où le savoir-faire manuel devient une philosophie de vie.</p>
+                        <a href="contact.html" class="book-buy-button">Me contacter</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
